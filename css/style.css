@@ -35,14 +35,10 @@ header{
 
 /* container main leadership */
 
-.column{
-    background-color: #abcfe6;
-    height: ;
-}
 
 .container-leadership{
     background-color: #0389fe;
-    height: 500px;
+    height: 520px;
     margin-top: 25px;
 }
 
@@ -50,3 +46,36 @@ header{
     background-color: #abcfe6;
     height: 85px;
 }
+
+
+.column-1,
+.column-2,
+.center.column{
+    height: 400px;
+    background-color: #abcfe6;
+    margin-top: 15px;
+    float: left;
+}
+
+.column-1,
+.column-2{
+    width: 25%;
+}
+
+.column-2,
+.center.column{
+    margin-left: 15px;
+}
+
+.center.column{
+    width: 539px;
+}
+
+/* footer */
+
+footer{
+    background-color: #8803ff;
+    height: 70px;
+    margin: 8px 0 20px;
+}
+
